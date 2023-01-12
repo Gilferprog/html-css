@@ -1,0 +1,5 @@
+=====================
+Anotações
+=====================
+Tag <abbr> Quando vc quiser passar o mouse em uma palavra 
+e vai abrir uma caxinha o que siginifica.

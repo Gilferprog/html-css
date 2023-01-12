@@ -1,0 +1,17 @@
+===========================================
+Cores Primarias:
+Amarelo , Vermelho , Azul
+
+Cores Segundrias:
+Laranja, Violeta , Verde´
+
+
+Cores Terciárias
+- São a cores que ficam entre as cores primárias e segundárias.
+- amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho arroxeado, azul-aroxeado, azul esverdeado.
+
+Cores Complementares:
+- São cores que contrasta com outras.
+
+Cores Análogas
+- São cores que não tem contraste entre elas, mais são perceptiveis.

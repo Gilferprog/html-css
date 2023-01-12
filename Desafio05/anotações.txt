@@ -1,0 +1,7 @@
+=====================
+Anotações
+=====================
+
+Para envelopar ou seja clicar em um nome e ser direcionado pra algum site:
+usar as tecla (ctrl+shifit+p e procuar Emmet Warp, digite a <teg a> e enter, para
+abrir em outra janela digite (target_blank)
