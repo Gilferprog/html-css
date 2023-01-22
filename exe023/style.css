@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body{
+    background-color: rgba(11, 243, 243, 0.568);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+    border: 5px solid red; 
+}
+
+tr{
+    background-color: gray;
+}
+
+tr.lin2{
+    background-color: blue;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td.dado{
+    background-color: yellow;
+}
+
