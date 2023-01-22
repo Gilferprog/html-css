@@ -69,8 +69,14 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    
 }
+
+section > p{
+    padding-bottom: 2em;
+}
+
+
+    
 
 section.normal{
     background-color: white;
@@ -78,13 +84,31 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgb(51 ,51, 51);
+    
+    background-color: rgba(10, 10, 10, 0.822);
     color: white;
+    box-shadow: 1px 1px 15px rgb(10, 10, 10);
+    background-attachment: fixed; /*Fixa a imagem no backgroud (Efeito Parallax*/
 }
 
 section.imagem >P {
-    width:400px;
-    background-color: rgba(0, 0, 0, 0.253);
+    width:300px;
+    padding: 10px;
+    background-color: rgba(48, 47, 47, 0.514);
+    text-shadow: 2px 2px 0px rgb(8, 8, 8);
+    
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 
