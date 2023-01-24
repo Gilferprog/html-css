@@ -32,9 +32,13 @@
         .num{
             color: blue;
         }
+        
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: gray;
 
-        #cab{
-            color: black;
         }
 
         
@@ -44,6 +48,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODT
@@ -52,10 +57,11 @@
                 TR, TD, TH
     --> 
     <table>
+        <Caption>População da Unidade Federativas</Caption>
         <thead>
             <tr>
-                <th id="cab">Estado</th>
-                <th id="cab">População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -88,7 +94,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="col">Total de Habitantes</th>
                 <td class="num"><strong>256.037.043</strong></td>
             </tr>
         </tfoot>
