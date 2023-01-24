@@ -7,24 +7,26 @@ body{
 
 table{
     width: 400px;
+    height: 400px;
     border-collapse: collapse;
-    border: 5px solid red; 
+    border: 5px ; 
 }
 
 tr{
     background-color: gray;
 }
 
-tr.lin2{
-    background-color: blue;
+.num{
+    text-align: right;
+    
 }
 
 td{
     border: 1px solid black;
     padding: 8px;
+    text-align: center; /*Alinhamento horizontal*/
+    vertical-align: middle; /*Alinhamento Vertical*/
 }
 
-td.dado{
-    background-color: yellow;
-}
+
 
