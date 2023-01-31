@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Teste de Fomulários</h1>
-    <p>
-        
-    </p>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="isusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="5"
+            maxlength="20" placeholder="Nome do usuário">
+        </p>
+
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="6" placeholder="Minimo de 6 letras">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
     
 </body>
 </html>
